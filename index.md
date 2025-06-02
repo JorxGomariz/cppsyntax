@@ -1,12 +1,11 @@
 ---
 layout: home
-title: "Sintaxis de C++"
+title: "**Sintaxis de C++**"
 permalink: "/"
 ---
 
-# Bienvenido a Sintaxis de C++
-
-En este sitio encontrarás diferentes unidades (temas) sobre sintaxis de C++.  
+# ïndice
+ 
 Haz clic en la unidad que te interese:
 
 <ul>

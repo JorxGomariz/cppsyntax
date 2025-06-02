@@ -1,5 +1,5 @@
 ---
-title: "Sintaxis básica"
+title: "**Sintaxis básica**"
 layout: default
 ---
 
