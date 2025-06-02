@@ -1,17 +1,19 @@
 ---
 layout: home
 title: "Sintaxis de C++"
-permalink: "/"    # garantiza que la Home sea la raíz
+permalink: "/"
 ---
 
-# Bienvenido a la Sintaxis de C++
+# Bienvenido a Sintaxis de C++
 
-Aquí encontrarás los distintos temas organizados por unidades. Haz clic en el que necesites:
+En este sitio encontrarás diferentes unidades (temas) sobre sintaxis de C++.  
+Haz clic en la unidad que te interese:
 
 <ul>
 {% for unidad in site.unidades %}
   <li>
-    <a href="{{ unidad.url }}">{{ unidad.title }}</a>
+    <!-- "{{ unidad.url }}" ya incluye baseurl (gracias a baseurl: "/cppsyntax") -->
+    <a href="{{ unidad.url | relative_url }}">{{ unidad.title }}</a>
   </li>
 {% endfor %}
 </ul>

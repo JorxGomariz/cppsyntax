@@ -2,15 +2,15 @@
 title: "Sintaxis de C++"
 theme: minima
 
-# Indica que haya una colección “unidades” con salida (output)
+# Como tu sitio vive en https://JorxGomariz.github.io/cppsyntax,
+# tienes que indicar baseurl: "/cppsyntax"
+baseurl: "/cppsyntax"  
+
+# Colección de “unidades” que generará rutas en /cppsyntax/unidades/...
 collections:
   unidades:
     output: true
     permalink: /unidades/:name/
 
-# Para que Rouge haga resaltado de código
+# Para que Rouge resalte sintaxis
 highlighter: rouge
-
-# (Opcional) Si tu sitio vive en la raíz del repo:
-baseurl: "/cppsyntax" 
-# Si se hospedara en /cppsyntax, pon: baseurl: "/cppsyntax"
