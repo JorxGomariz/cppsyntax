@@ -34,7 +34,7 @@ Declaración de puntero:
 tipo* ptr;
 tipo *ptr; // Equivalente
 ```
-Asignación de dirección:
+Asignación de dirección: \
 *Nota: & extrae la dirección de memoria de la variable*
 ```cpp
 tipo var = valor;
