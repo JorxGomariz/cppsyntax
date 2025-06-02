@@ -1,18 +1,16 @@
-# _config.yml
 title: "Sintaxis de C++"
 description: "Apuntes sobre la sintaxis de C++"
-# Indica que el tema remoto será Tactile en la versión 0.2.0
-remote_theme: "jekyll/minima@1e8a445"
+remote_theme: jekyll/minima@v2.5.0   # <– aquí apuntas a la etiqueta v2.5.0, por ejemplo
+plugins:
+  - jekyll-remote-theme
 
-# Baseurl para que las rutas empiecen en /cppsyntax
 baseurl: "/cppsyntax"
 
-# Define la colección “unidades” como antes
 collections:
   unidades:
     output: true
     permalink: /unidades/:name/
 
-# Resaltador de sintaxis (Tactile usa rouge por defecto, pero lo declaramos también)
 highlighter: rouge
+
 
