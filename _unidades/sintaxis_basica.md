@@ -74,8 +74,10 @@ tipo var = estr.campo2;
 ```
 Con punteros...
 ```cpp
+// Asignación de dirección
 Estructura* ptrEstr = &estr;
-ptrEstr->campo1 = valor;        // Equivale a (*ptrEst).campo1
+// Acceso al contenido
+ptrEstr->campo1 = valor;            // Equivale a (*ptrEst).campo1
 tipo var = ptrEst->campo2;
 ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta a la dirección de memoria del campo1 de estr
 ```
