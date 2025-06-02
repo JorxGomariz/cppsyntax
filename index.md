@@ -3,8 +3,7 @@ layout: home
 permalink: "/"
 ---
 
-# **Sintaxis de C++**
-# Índice
+# Página principal
  
 Haz clic en la unidad que te interese:
 
