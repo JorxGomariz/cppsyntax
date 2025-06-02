@@ -34,7 +34,7 @@ Declaración de puntero:
 tipo* ptr;
 tipo *ptr; // Equivalente
 ```
-Asignación de dirección de memoria:
+Asignación de dirección:
 ```cpp
 tipo var = valor;
 tipo* ptr = &var;
@@ -58,7 +58,7 @@ tipo* ptrSinInicializar;    // Cuidado! Apunta a donde sea
 struct Estructura{
     tipo campo1;
     tipo campo2;
-    Tipo* campoPtr;
+    tipo* campoPtr;
     // ...
 };
 ```
