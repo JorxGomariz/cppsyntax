@@ -44,7 +44,6 @@ Acceso al contenido:
 // ptr es la dirección de memoria
 ptr += n;           // Avanza n elementos del tipo
 // *ptr es el valor almacenado en la dirección de memoria
-tipo dato = *ptr;
 *ptr = otro_valor;  // Modifica el contenido
 ```
 Punteros nulos o sin inicializar:
@@ -70,7 +69,6 @@ Estructura estr = {valor1, valor2, nullptr};
 Para acceder a los miembros del struct...
 ```cpp
 estr.campo1 = valor;
-tipo var = estr.campo2;
 ```
 Con punteros...
 ```cpp
@@ -78,8 +76,7 @@ Con punteros...
 Estructura* ptrEstr = &estr;
 // Acceso al contenido
 ptrEstr->campo1 = valor;            // Equivale a (*ptrEst).campo1
-tipo var = ptrEst->campo2;
-ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta a la dirección de memoria del campo1 de estr
+ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta al campo1 de estr
 ```
 
 
