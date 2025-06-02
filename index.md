@@ -1,9 +1,10 @@
 ---
 layout: home
+title: "Sintaxis de C++"
 permalink: "/"
 ---
 
-# Página principal
+# **Página principal**
  
 Haz clic en la unidad que te interese:
 
