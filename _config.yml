@@ -4,3 +4,7 @@ nav:
   - Home: index.md
 baseurl: ""
 highlighter: rouge
+collections:
+  unidades:
+    output: true
+    permalink: /:collection/:name/

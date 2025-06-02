@@ -1,8 +1,18 @@
 ---
 layout: home
-title: Sintaxis de C++
+title: "Sintaxis de C++"
+permalink: "/"    # garantiza que la Home sea la raíz
 ---
 
-# Sintaxis de C++ 2
+# Bienvenido a la Sintaxis de C++
 
-Sintaxis de C++ 3
+Aquí encontrarás los distintos temas organizados por unidades. Haz clic en el que necesites:
+
+<ul>
+{% for unidad in site.unidades %}
+  <li>
+    <a href="{{ unidad.url }}">{{ unidad.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
