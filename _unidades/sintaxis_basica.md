@@ -34,16 +34,23 @@ Declaración de puntero:
 tipo* ptr;
 tipo *ptr; // Equivalente
 ```
-Asignación de dirección:
+Asignación de dirección de memoria:
 ```cpp
 tipo var = valor;
 tipo* ptr = &var;
 ```
 Acceso al contenido:
 ```cpp
-// ptr es la dirección de memoria y *ptr es el valor almacenado en la dirección de memoria
+// ptr es la dirección de memoria
+ptr += n;           // Avanza n elementos del tipo
+// *ptr es el valor almacenado en la dirección de memoria
 tipo dato = *ptr;
-*ptr = otro_valor;  // modifica el contenido
+*ptr = otro_valor;  // Modifica el contenido
+```
+Punteros nulos o sin inicializar:
+```cpp
+tipo* ptrNulo = nullptr;    // Literal puntero nulo
+tipo* ptrSinInicializar;    // Cuidado! Apunta a donde sea
 ```
 
 # Estructuras
@@ -51,20 +58,27 @@ tipo dato = *ptr;
 struct Estructura{
     tipo campo1;
     tipo campo2;
+    Tipo* campoPtr;
     // ...
-}
+};
 ```
 Para crear una instancia...
 ```cpp
-Estructura instancia;
-Estructura instancia = {valor1, valor2};
+Estructura estr;
+Estructura estr = {valor1, valor2, nullptr};
 ```
 Para acceder a los miembros del struct...
 ```cpp
-instancia.campo1 = valor;
-tipo var = instancia.campo2;
+estr.campo1 = valor;
+tipo var = estr.campo2;
 ```
-Si la instancia es un puntero...
+Con punteros...
 ```cpp
+Estructura* ptrEstr = &estr;
+ptrEstr->campo1 = valor;        // Equivale a (*ptrEst).campo1
+tipo var = ptrEst->campo2;
+ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta a la dirección de memoria del campo1 de estr
+```
+
 
 
