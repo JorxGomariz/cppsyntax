@@ -1,6 +1,6 @@
 # _config.yml
 title: "Sintaxis de C++"
-theme: minima
+theme: tactile
 
 # Como tu sitio vive en https://JorxGomariz.github.io/cppsyntax,
 # tienes que indicar baseurl: "/cppsyntax"
