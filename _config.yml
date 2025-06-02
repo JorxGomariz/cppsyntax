@@ -2,11 +2,7 @@
 title: "Sintaxis de C++"
 description: "Apuntes sobre la sintaxis de C++"
 # Indica que el tema remoto será Tactile en la versión 0.2.0
-remote_theme: pages-themes/tactile@v0.2.0
-
-# Habilita el plugin jekyll-remote-theme para que Jekyll descargue Tactile
-plugins:
-  - jekyll-remote-theme
+remote_theme: "jekyll/minima@1e8a445"
 
 # Baseurl para que las rutas empiecen en /cppsyntax
 baseurl: "/cppsyntax"
