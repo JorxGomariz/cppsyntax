@@ -1,0 +1,6 @@
+title: "Sintaxis de C++"
+theme: minima
+collections:
+  unidades:
+    output: true
+    permalink: /:collection/:name/
