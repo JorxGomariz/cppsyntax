@@ -11,3 +11,4 @@ Aquí va tu explicación (sin incluir contenido extenso de C++). Para bloques de
 Tipo var1;          // declaración de variable genérica
 Tipo var2 = 10;     // con inicialización
 const Tipo var3 = 3.14;
+```
