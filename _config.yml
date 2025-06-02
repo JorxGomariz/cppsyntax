@@ -1,8 +1,6 @@
 title: "Sintaxis de C++"
 description: "Apuntes sobre la sintaxis de C++"
-remote_theme: jekyll/minima@v2.5.0   # <– aquí apuntas a la etiqueta v2.5.0, por ejemplo
-plugins:
-  - jekyll-remote-theme
+theme: minima  
 
 baseurl: "/cppsyntax"
 
