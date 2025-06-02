@@ -35,6 +35,7 @@ tipo* ptr;
 tipo *ptr; // Equivalente
 ```
 Asignación de dirección:
+*Nota: & extrae la dirección de memoria de la variable*
 ```cpp
 tipo var = valor;
 tipo* ptr = &var;
@@ -76,7 +77,7 @@ Con punteros...
 Estructura* ptrEstr = &estr;
 // Acceso al contenido
 ptrEstr->campo1 = valor;            // Equivale a (*ptrEst).campo1
-ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta al campo1 de estr
+ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta al campo1 de estr.
 ```
 
 
