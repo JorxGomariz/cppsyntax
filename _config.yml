@@ -1,6 +1,6 @@
 title: "Sintaxis de C++"
-theme: minima
-collections:
-  unidades:
-    output: true
-    permalink: /:collection/:name/
+theme: "just-the-docs"
+nav:
+  - Home: index.md
+baseurl: ""
+highlighter: rouge
