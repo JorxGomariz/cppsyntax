@@ -1,10 +1,16 @@
+# _config.yml
 title: "Sintaxis de C++"
-theme: "minima"
-nav:
-  - Home: index.md
-baseurl: ""
-highlighter: rouge
+theme: minima
+
+# Indica que haya una colección “unidades” con salida (output)
 collections:
   unidades:
     output: true
-    permalink: /:collection/:name/
+    permalink: /unidades/:name/
+
+# Para que Rouge haga resaltado de código
+highlighter: rouge
+
+# (Opcional) Si tu sitio vive en la raíz del repo:
+baseurl: "/cppsyntax" 
+# Si se hospedara en /cppsyntax, pon: baseurl: "/cppsyntax"
