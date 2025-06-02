@@ -1,10 +1,10 @@
 ---
 layout: home
-title: "**Sintaxis de C++**"
 permalink: "/"
 ---
 
-# ïndice
+# **Sintaxis de C++**
+# Índice
  
 Haz clic en la unidad que te interese:
 
