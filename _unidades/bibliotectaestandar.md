@@ -1,10 +1,10 @@
 ---
-title: "7. Biblioteca Estándar de C++"
-order: 7
+title: "8. Biblioteca Estándar de C++"
+order: 8
 layout: default
 ---
 
-# **7. Biblioteca Estándar de C++**
+# **8. Biblioteca Estándar de C++**
 
 # std::string
 ```cpp
