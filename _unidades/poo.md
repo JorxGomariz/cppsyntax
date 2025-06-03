@@ -39,7 +39,7 @@ protected:
     tipo atributoProtegido;         // Solo accesible en derivadas
 private:
     tipo atributoPrivado;           // Solo accesible dentro de esta clase
-}
+};
 
 // Clase derivada que hereda públicamente de ClaseBase
 // Nota: override indica que se va a sobreescribir el método de la clase base (no obligatorio, pero recomendable)
@@ -65,7 +65,7 @@ public:
 
 private:
     atributoDerivada;
-}
+};
 
 #endif // CLASE_H
 ```
@@ -123,6 +123,7 @@ tipo ClaseDerivada::metodoDerivada(tipo x){
     atributoProtegido = atributoDerivada;   // Se puede acceder al protegido de la clase base. Si se llama igual que un atributo de la clase derivada... ClaseBase::atributoProtegido
     metodoBase(x);                          // Se puede llamar a un método de la clase base. Si se llama igual que un método de la clase derivada... ClaseBase::metodoBase(x)
 }
+
 // Override de método virtual
 tipo ClaseDerivada::metodoVirtual(tipo x){
     // Nueva implementacion
