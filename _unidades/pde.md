@@ -41,4 +41,4 @@ void alerta(Tipo arg) {
 
 // Conectamos la señal a la alerta
 get_signal().connect(alerta);
-``
+```
