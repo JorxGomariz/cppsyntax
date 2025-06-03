@@ -25,6 +25,15 @@ Si se quiere una constante...
 ```cpp
 const tipo varConstante = valor;
 ```
+Para vectores y matrices...
+```cpp
+// Vector
+tipo vec[tam];
+vec[i] = valor;
+// Matriz
+tipo mat[fil][col];
+mat[i][j] = valor;
+```
 
 # Punteros
 *Un puntero es una variable que almacena la dirección en memoria de otra variable cuyo tipo es compatible*
@@ -34,11 +43,9 @@ Declaración de puntero:
 tipo* ptr;
 tipo *ptr; // Equivalente
 ```
-Asignación de dirección: \
-*Nota: & extrae la dirección de memoria de la variable*
+Asignación de dirección:
 ```cpp
-tipo var = valor;
-tipo* ptr = &var;
+tipo* ptr = &var; // & extrae la dirección de memoria de la variable
 ```
 Acceso al contenido:
 ```cpp
@@ -80,5 +87,93 @@ ptrEstr->campo1 = valor;            // Equivale a (*ptrEst).campo1
 ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta al campo1 de estr.
 ```
 
+# Funciones
+Paso por valor:
+```cpp
+tipo funcion(tipo parametro){
+    parametro = otro_valor;     // El parámetro no cambia fuera de la función (copia local)
+    return parametro;
+}
+funcionValor(var);              // var no se ha modificado
+```
+Paso por referencia:
+```cpp
+void funcion(tipo& parametro){
+    parametro = otro_valor;     // El parámetro cambia fuera de la función
+}
+funcion(var)                    // var se ha modificado
+```
 
+# Condicionales
+if:
+```cpp
+if (condicion1){
+    // Codigo 1
+}
+else if (condicion2){
+    // Codigo 2
+}
+else {
+    // Codigo else
+}
+```
+switch:
+```cpp
+switch (expresion){
+    case valor1:        // Equivalente a expresion == valor1
+        // Codigo 1
+        break;
+    case valor2:
+        // Codigo 2
+        break;
+    // ...
+    default:
+        // Codigo default
+        break;
+}
+```
 
+# Bucles
+while:
+```cpp
+while (condicion){
+    // Bloque que se repite mientras la condicion sea verdadera
+}
+```
+do-while:
+```cpp
+do {
+    // Bloque que se ejecuta al menos una vez
+} while (condicion);
+```
+for:
+```cpp
+// Clásico:
+for (tipo i = inicio; i < fin; i++){
+    // Bloque que se repite (inicialización; condición; actualización)
+}
+// Moderno:
+for (auto elemento : contenedor){
+    // Bloque que recorre cada elemento del contenedor
+}
+```
+
+# Estructura de un programa genérico
+```cpp
+// Archivos de cabecera y bibliotecas
+#include <biblioteca>
+
+// Declaración de funciones y variables globales
+tipo funcion(tipo parametro);
+
+// Programa principal
+int main(){
+    // Implementacion
+    return 0; // Retorna éxito
+}
+
+// Definición de funciones
+tipo funcion(tipo parametro){
+    // Implementacion
+}
+```
