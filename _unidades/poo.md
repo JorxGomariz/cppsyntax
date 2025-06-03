@@ -145,3 +145,4 @@ ClaseDerivada* ptrObjDerivada = new ClaseDerivada();        // Puede usar todos 
 ClaseBase*     ptrObjBase     = new ClaseDerivada();        // Solo puede usar los métodos declarados en la base. Si se llama a un método virtual, se ejecuta la versión de la derivada
 delete ptrObjDerivada;
 delete ptrObjBase;
+```
