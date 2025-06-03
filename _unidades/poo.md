@@ -134,3 +134,14 @@ tipo ClaseDerivada::metodoPuro(tipo x){
     // Implementacion
 }
 ```
+
+En el main...
+```cpp
+// Sin memoria dinámica
+ClaseDerivada obj(valorBase, valorDerivada);
+
+// Con memoria dinámica
+ClaseDerivada* ptrObjDerivada = new ClaseDerivada();        // Puede usar todos los métodos público de la base
+ClaseBase*     ptrObjBase     = new ClaseDerivada();        // Solo puede usar los métodos declarados en la base. Si se llama a un método virtual, se ejecuta la versión de la derivada
+delete ptrObjDerivada;
+delete ptrObjBase;
