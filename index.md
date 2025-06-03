@@ -9,9 +9,9 @@ permalink: "/"
 Haz clic en la unidad que te interese:
 
 <ul>
-{% for unidad in site.unidades %}
+{%- assign sorted_unidades = site.unidades | sort: 'order' -%}
+{% for unidad in sorted_unidades %}
   <li>
-    <!-- "{{ unidad.url }}" ya incluye baseurl (gracias a baseurl: "/cppsyntax") -->
     <a href="{{ unidad.url | relative_url }}">{{ unidad.title }}</a>
   </li>
 {% endfor %}
