@@ -24,7 +24,7 @@ class ClaseGenerica {
 public:
     // Por ejemplo, constructor genérico
     ClaseGenerica(T valor) : atributoGenerico(valor){
-
+        // ...
     }
 private:
     // Por ejemplo, atributo genérico
@@ -52,3 +52,4 @@ struct Estructura {
 };
 
 Estructura<> estr;
+```
