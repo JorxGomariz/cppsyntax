@@ -16,7 +16,7 @@ using my_signal_t = boost::signals2::signal<void(Tipo)>;
 // === Definición de la señal ===
 // Si no está en una clase...
 my_signal_t &get_signal(){
-    static my_signal_t s;
+    static my_signal_t s;       // Nos toca crear la señal (static)
     return s
 }
 
