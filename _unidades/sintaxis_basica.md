@@ -90,7 +90,7 @@ ptrEst->campoPtr = &estr.campo1;    // campoPtr apunta al campo1 de estr.
 # Funciones
 Paso por valor:
 ```cpp
-tipo funcion(tipo parametro){
+tipo funcionValor(tipo parametro){
     parametro = otro_valor;     // El parámetro no cambia fuera de la función (copia local)
     return parametro;
 }
@@ -98,10 +98,10 @@ funcionValor(var);              // var no se ha modificado
 ```
 Paso por referencia:
 ```cpp
-void funcion(tipo& parametro){
+void funcionRef(tipo& parametro){
     parametro = otro_valor;     // El parámetro cambia fuera de la función
 }
-funcion(var)                    // var se ha modificado
+funcionRef(var)                    // var se ha modificado
 ```
 
 # Condicionales
