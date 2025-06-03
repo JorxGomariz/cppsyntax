@@ -120,7 +120,7 @@ else {
 switch:
 ```cpp
 switch (expresion){
-    case valor1:        // Equivalente a expresion == valor1
+    case valor1:        // if expresion == valor1
         // Codigo 1
         break;
     case valor2:
