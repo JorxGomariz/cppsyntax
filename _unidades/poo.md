@@ -6,7 +6,7 @@ layout: default
 
 # **4. Programación Orientada a Objetos**
 
-# Definición de una clase genérica
+# Ejemplo genérico con herencia
 Clase.h
 ```cpp
 #ifndef CLASE_H
