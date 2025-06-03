@@ -1,10 +1,10 @@
 ---
-title: "3. Namespaces"
+title: "3. Espacios de nombres"
 order: 3
 layout: default
 ---
 
-# **3. Namespaces**
+# **3. Espacios de nombres**
 
 # Declaración
 ```cpp
