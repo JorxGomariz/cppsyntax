@@ -1,9 +1,9 @@
 ---
-title: "Sintaxis básica"
+title: "1. Sintaxis básica"
 layout: default
 ---
 
-# **Sintaxis básica**
+# **1. Sintaxis básica**
 
 # Comentarios
 

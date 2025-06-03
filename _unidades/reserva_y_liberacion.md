@@ -1,9 +1,9 @@
 ---
-title: "Reserva y liberación de memoria"
+title: "2. Reserva y liberación de memoria"
 layout: default
 ---
 
-# **Reserva y liberación de memoria**
+# **2. Reserva y liberación de memoria**
 
 # Variables
 ```cpp
