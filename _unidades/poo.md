@@ -1,10 +1,10 @@
 ---
-title: "3. Programación Orientada a Objetos"
-order: 3
+title: "4. Programación Orientada a Objetos"
+order: 4
 layout: default
 ---
 
-# **3. Programación Orientada a Objetos**
+# **4. Programación Orientada a Objetos**
 
 # Definición de una clase genérica
 Clase.h
