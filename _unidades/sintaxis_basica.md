@@ -1,5 +1,6 @@
 ---
-title: "1. Sintaxis básica"
+title: 1. "Sintaxis básica"
+order: 1
 layout: default
 ---
 
