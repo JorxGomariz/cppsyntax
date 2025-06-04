@@ -141,8 +141,9 @@ En el main...
 ClaseDerivada obj(valorBase, valorDerivada);
 
 // Con memoria dinámica
-ClaseDerivada* ptrObjDerivada = new ClaseDerivada();        // Puede usar todos los métodos público de la base
-ClaseBase*     ptrObjBase     = new ClaseDerivada();        // Solo puede usar los métodos declarados en la base. Si se llama a un método virtual, se ejecuta la versión de la derivada
+ClaseBase*     ptrObjBase = new ClaseBase(parBase);                                 // ERROR! En este caso es incorrecto porque es una clase abstracta. Si no lo fuera, sería correcto
+ClaseDerivada* ptrObjDerivada = new ClaseDerivada(parBase, parDerivada);            // Puede usar todos los métodos público de la base
+ClaseBase*     ptrObjBaseDerivada     = new ClaseDerivada(parBase, parDerivada);    // Solo puede usar los métodos declarados en la base. Si se llama a un método virtual, se ejecuta la versión de la derivada
 delete ptrObjDerivada;
 delete ptrObjBase;
 ```
