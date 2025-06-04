@@ -11,26 +11,26 @@ En el .h y .cc
 #include <boost/signals2.hpp>
 
 // Definición del tipo de señal
-using my_signal_t = boost::signals2::signal<void(Tipo)>;
+using signal_t = boost::signals2::signal<void(Tipo)>;
 
 // === Definición de la señal ===
 // Si no está en una clase...
-my_signal_t &get_signal(){
-    static my_signal_t s;       // Nos toca crear la señal (static)
+signal_t &get_signal(){
+    static signal_t s;       // Nos toca crear la señal (static)
     return s
 }
 
 // Si está en una clase...
 // En los atributos, estará definida la señal:
 private:
-    my_signal_t signal;
+    signal_t s;
 // Por tanto, habrá un método que retorne la señal pero no hará falta crearla
-my_signal_t &Clase::get_signal(){
-    return signal;
+signal_t &Clase::get_signal(){
+    return s;
 }
 
 // Uso
-get_signal()(argumento);
+get_signal()(arg);
 ```
 En el main...
 ```cpp
