@@ -18,7 +18,7 @@ char c = s[0];                  // Acceso a caracter
 std::string copia = s1;         // Se pueden asignar strings
 
 // Funciones básicas
-size_t longitud = s.size();     // Tamaño
+size_t longitud = s.length();     // Tamaño
 bool vacia = s.empty();         // Está vacía
 s.clear()                       // Deja la cadena vacía
 size_t pos = s.find("Mu");      // Posición de la primera ocurrencia, o std::string::npos si no se encuentra
