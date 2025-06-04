@@ -29,7 +29,7 @@ public:
 private:
     // Por ejemplo, atributo genérico
     T atributoGenerico
-}
+};
 
 ClaseGenerica<tipo> obj(valor);
 ```
