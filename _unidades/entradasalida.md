@@ -11,6 +11,7 @@ En el .h \
 *Nota: friend permite acceder a los miembros protegidos y privados de la clase.* \
 *Ojo! También se podría haber hecho sin friend, usando los getters*
 ```cpp
+#include <iostream>
 friend std::ostream& operator<<(std::ostream& os, const Clase& obj);
 ```
 
