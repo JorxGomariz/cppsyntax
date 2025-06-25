@@ -8,8 +8,9 @@ layout: default
 
 # Redefinición del operador <<
 En el .h \
-*Nota: friend permite acceder a los miembros protegidos y privados de la clase.* \
-*Ojo! También se podría haber hecho sin friend, usando los getters*
+*Nota 1: friend permite acceder a los miembros protegidos y privados de la clase.* \
+*Nota 2: También se podría haber hecho sin friend, usando los getters* \
+*Nota 3: Dado que obj es const, si hay que acceder a sus métodos ( obj.metodo() ), esos métodos deben ser const*
 ```cpp
 #include <iostream>
 friend std::ostream& operator<<(std::ostream& os, const Clase& obj);
