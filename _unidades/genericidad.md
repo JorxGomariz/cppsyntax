@@ -40,8 +40,6 @@ namespace Genericidad
 	T ClaseGenerica<T, N>::funcionGenerica(T arg) {
 		...
 	}
-
   ...
-
 }
 ```
