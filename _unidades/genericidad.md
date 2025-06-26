@@ -36,7 +36,7 @@ namespace Genericidad
   template <typename T, tipo N>
 	ClaseGenerica<T, N>::ClaseGenerica() : ... {}
 
-  template <typename T, int16_t N>
+  template <typename T, tipo N>
 	T ClaseGenerica<T, N>::funcionGenerica(T arg) {
 		...
 	}
