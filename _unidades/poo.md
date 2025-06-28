@@ -61,7 +61,7 @@ public:
     tipo metodoPuro(tipo y) override;
 
     // Atributo estático
-    static Tipo atributoEstatico;
+    static tipo atributoEstatico;
 
 private:
     atributoDerivada;
