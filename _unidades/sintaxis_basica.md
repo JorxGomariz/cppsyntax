@@ -159,6 +159,16 @@ for (auto elemento : contenedor){
 }
 ```
 
+# Enum
+```cpp
+enum Valor {
+    val0,    // 0
+    val1,    // 1
+    val2     // 2
+}
+Valor v = val1;
+``
+
 # Estructura de un programa genérico
 ```cpp
 // Archivos de cabecera y bibliotecas
