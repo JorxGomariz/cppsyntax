@@ -167,7 +167,7 @@ enum Valor {
     val2     // 2
 }
 Valor v = val1;
-``
+```
 
 # Estructura de un programa genérico
 ```cpp
